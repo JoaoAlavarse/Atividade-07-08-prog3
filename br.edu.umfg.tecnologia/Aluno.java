@@ -103,7 +103,7 @@ public class Aluno {
     }
 
     public String calcularSituacao(double media){
-        if (media < 6.9){
+        if (media <= 6.9){
             String exame = "EXAME";
             return exame;
         } else {
